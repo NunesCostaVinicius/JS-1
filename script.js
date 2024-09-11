@@ -1,6 +1,6 @@
 document.querySelector('.mudarTextoBotao').addEventListener('click', function() {
     const paragrafo = document.querySelector('.descricao');
-    paragrafo.textContent = 'Texto alterado!';
+    paragrafo.textContent = 'Texto não alterado!';
 });
 
 document.querySelector('.destacarBotao').addEventListener('click', function() {
